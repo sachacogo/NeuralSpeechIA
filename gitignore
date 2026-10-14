@@ -1,0 +1,14 @@
+
+__pycache__/
+*.pyc
+.venv/
+
+
+*.bin
+python/model_weights.h
+
+
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
