@@ -1,5 +1,7 @@
 # NeuralSpeechIA
 
+[![Project Video](https://img.shields.io/badge/Watch%20the-Video-FF0000?style=for-the-badge&logo=youtube)](https://www.youtube.com/watch?v=B5_9zbCxxHk)
+
 Reconnaissance vocale de mots-clés **entièrement embarquée sur Arduino Due** : on appuie sur un bouton, on prononce « bonjour » ou « merci », et l'écran OLED affiche le mot reconnu avec son score de confiance.
 
 Toute la chaîne est codée à la main, sans framework de ML embarqué : acquisition audio par registres, filtrage numérique, extraction des MFCC sur la carte et inférence d'un petit réseau de neurones convolutif écrit en C.
