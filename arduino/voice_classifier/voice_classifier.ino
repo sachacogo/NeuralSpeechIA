@@ -39,7 +39,7 @@ void setupOLED() {
 
 float mfcc_matrix[INPUT_H * INPUT_W];                   
 float buffer_a   [INPUT_H * INPUT_W * CONV1_FILTERS];    
-float buffer_b   [INPUT_H * INPUT_W * CONV2_FILTERS];    
+float buffer_b   [POOL_H * POOL_W * CONV1_FILTERS]; 
 float dense1_out [DENSE1_UNITS];                         
 float result     [NUM_CLASSES];                          
 
